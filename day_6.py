@@ -15,5 +15,5 @@ if __name__ == "__main__":
         reader = csv.reader(csvfile, delimiter=",", skipinitialspace=True)
         fish_list = list(map(int, next(reader)))
 
-        print(f"The answer to part 1 is {solver(fish_list, 80)}")
-        print(f"The answer to part 2 is {solver(fish_list, 256)}")
+    print(f"The answer to part 1 is {solver(fish_list, 80)}")
+    print(f"The answer to part 2 is {solver(fish_list, 256)}")
