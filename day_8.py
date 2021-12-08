@@ -1,18 +1,5 @@
 import csv
 
-real_dict = {
-    "abcefg": 0,
-    "cf": 1,
-    "acdeg": 2,
-    "acdfg": 3,
-    "bcdf": 4,
-    "abcfg": 5,
-    "abdefg": 6,
-    "acf": 7,
-    "abcdefg": 8,
-    "abcdfg": 9,
-}
-
 
 def find_mapping(row):
     mapping_list = [0 for i in range(10)]
