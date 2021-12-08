@@ -40,9 +40,7 @@ def find_mapping(row):
 def solver_1(inputs, outputs):
 
     instances = 0
-
     for idx, row in enumerate(inputs):
-
         mapping_list = find_mapping(row)
 
         for output in outputs[idx]:
